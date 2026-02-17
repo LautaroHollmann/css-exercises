@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title, .element, .element-card{
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.element {
+  flex-wrap: wrap;
+  max-width: 200px;
+  text-align: center;
+  gap: 5px;
+}
+
+.element-card {
+  gap: 52px;
+  align-items: baseline;
+}
+
+/* {
+  border: solid red 2px;
+}
